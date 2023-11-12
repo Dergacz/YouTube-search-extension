@@ -1,0 +1,42 @@
+body {
+    width: 200px;
+    padding: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type="text"] {
+    width: 95%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.search-button,
+.close-button {
+    width: 40%;
+    padding: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.search-button {
+    background-color: #0073e6;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+.close-button {
+    background-color: #e60000;
+}
+
+.close-button:hover {
+    background-color: #b30000;
+}
