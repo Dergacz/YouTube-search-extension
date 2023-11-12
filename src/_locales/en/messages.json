@@ -1,0 +1,10 @@
+{
+  "name": {
+    "message": "Searcher",
+    "description": "extension name"
+  },
+  "description": {
+    "message": "Search youTube faster",
+    "description": "extension description"
+  }
+}
