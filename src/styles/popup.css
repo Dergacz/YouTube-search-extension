@@ -1,6 +1,7 @@
 body {
     width: 200px;
     padding: 10px;
+    border-radius: 40px;
 }
 
 .buttons {
@@ -39,4 +40,9 @@ input[type="text"] {
 
 .close-button:hover {
     background-color: #b30000;
+}
+
+#searchQuery:focus {
+    outline: none;
+    box-shadow: none;
 }

@@ -3,6 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const closeButton = document.getElementById('closeButton');
     const searchQuery = document.getElementById('searchQuery');
 
+    searchQuery.focus();
+
     const onSearchHandler = () => {
         const query = searchQuery.value;
         if (query) {
